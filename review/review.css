@@ -1,0 +1,73 @@
+#title-box{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    /* background-color: #ff642d; */
+    padding: 20px 10%;
+    color: #171a22;
+}
+
+.bgYellow1{
+    background: url(../imgs/backgrounds/bgYellow1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#title-box>div{
+    width: 50%;
+}
+
+#title-box h1{
+    /* width: 50%; */
+    font-size: 40px;
+}
+
+#title-box p{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+#review-info{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#title-box span{
+    font-size: 15px;
+}
+
+#cover-page{
+    display: flex;
+    justify-content: center;
+}
+
+#cover-page img{
+    height: 250px;
+}
+
+/* CONTENT */
+#content{
+    padding: 50px 50px;
+}
+
+#content h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+}
+
+#content h3 {
+    display: inline;
+    font-size: 20px;
+    background-color: gold;
+    padding: 0 4px;
+    border-radius: 10px;
+}
+#content h3{
+    font-weight: 600;
+}
+#content p{
+    margin-bottom: 1.5em;
+    font-size: 18px;
+}
