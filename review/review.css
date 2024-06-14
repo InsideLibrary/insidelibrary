@@ -1,57 +1,62 @@
-#title-box{
+#title-box {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    height: 300px;
+    aspect-ratio: 3/1;
+    /* height: 300px; */
+    height: auto;
     /* background-color: #ff642d; */
     padding: 20px 10%;
     color: #171a22;
 }
 
-.bgYellow1{
+.bgYellow1 {
     background: url(../imgs/backgrounds/bgYellow1.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#title-box>div{
+#title-box>div {
     width: 50%;
+    min-width: 230px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#title-box h1{
-    /* width: 50%; */
+#title-box h1 {
     font-size: 40px;
 }
 
-#title-box p{
+#title-box p {
     font-size: 15px;
     margin-bottom: 25px;
 }
 
-#review-info{
+#review-info {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
-#title-box span{
+#title-box span {
     font-size: 15px;
 }
 
-#cover-page{
+#cover-page {
     display: flex;
     justify-content: center;
 }
 
-#cover-page img{
+#cover-page img {
     height: 250px;
 }
 
 /* CONTENT */
-#content{
+#content {
     padding: 50px 50px;
 }
 
-#content h2{
+#content h2 {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 0.8em;
@@ -64,10 +69,53 @@
     padding: 0 4px;
     border-radius: 10px;
 }
-#content h3{
+
+#content h3 {
     font-weight: 600;
 }
-#content p{
+
+#content p {
     margin-bottom: 1.5em;
     font-size: 18px;
+}
+
+@media (min-width: 0) and (max-width: 1050px) {
+    #title-box h1 {
+        font-size: 35px;
+    }
+    #review-info span{
+        margin-right: 5px;
+    }
+}
+@media (min-width: 0) and (max-width: 760px) {
+    #title-box h1 {
+        font-size: 30px;
+    }
+    
+    #content {
+        padding: 50px 0;
+    }
+    #title-box>div {
+        width: 100%;
+        min-width: 230px;
+        /* margin: 15px; */
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+}
+
+@media (min-width: 0) and (max-width: 660px){
+    #title-box {
+        padding: 0;
+    }
+    #title-box>div {
+        width: 100%;
+        min-width: 230px;
+        margin: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #content p {
+        font-size: 16px;
+    }
 }
