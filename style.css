@@ -17,6 +17,7 @@
 
 /* NAVBAR */
 #nav {
+    padding: 0 50px;
     display: flex;
     justify-content: space-between;
     height: 90px;
