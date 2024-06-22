@@ -378,6 +378,7 @@
     #footer-dir {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 35px 35px 35px;
     }
 
     #footer-logo {
