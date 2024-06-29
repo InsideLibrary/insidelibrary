@@ -9,6 +9,11 @@
     font-style: normal;
 }
 
+body{
+    background-color: white;
+    color: black;
+}
+
 #main {
     height: auto;
     max-width: 100%;
