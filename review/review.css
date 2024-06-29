@@ -54,6 +54,8 @@
 /* CONTENT */
 #content {
     padding: 50px 50px;
+    background-color: white;
+    color: black;
 }
 
 #content h2 {
