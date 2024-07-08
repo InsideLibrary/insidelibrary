@@ -189,6 +189,19 @@ body{
     margin: 20px 0;
 }
 
+#viewAll{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#viewAll a{
+    font-size: 25px;
+    color: blue;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
 /* FOOTER */
 #footer {
     margin: 55px 10px;
