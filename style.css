@@ -57,6 +57,7 @@ body{
 
 /* CANVAS */
 #canvas {
+    margin-top: 50px;
     display: flex;
     background-color: #e7e6e0;
     /* height: 600px; */
