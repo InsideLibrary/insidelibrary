@@ -1,0 +1,11 @@
+#aboutus{
+    background-color: #fff4ee;
+}
+
+#stats{
+    display: flex;
+}
+
+#stats>div{
+    width: 50%;
+}

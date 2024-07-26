@@ -45,6 +45,10 @@ body{
     display: flex;
 }
 
+/* #menu1 li:hover{
+    border-bottom: 2px solid orange;
+} */
+
 #menu1>li {
     margin: 5px 20px;
     letter-spacing: 3px;
