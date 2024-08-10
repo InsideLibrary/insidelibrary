@@ -2,7 +2,7 @@ window.onload = function() {
     const numberElement = document.getElementById('number');
     let currentNumber = 0;
     const duration = 3000; // 3 seconds
-    const targetNumber = 15;
+    const targetNumber = 10;
     const interval = duration / targetNumber; // Time between each increment
 
     function incrementNumber() {
@@ -34,3 +34,14 @@ document.addEventListener('DOMContentLoaded', () => {
       dropdownMenu.classList.remove('show');
     });
   });
+
+
+console.log("Let's write JavaScript");
+
+async function main(){
+  let a = await fetch("http://127.0.0.1:5500/review/");
+  let response = await a.text();
+  console.log(response);
+  let div = document.createElement("div");
+  div.innerHTML = response;
+}
