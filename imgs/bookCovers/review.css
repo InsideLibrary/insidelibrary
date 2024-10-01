@@ -1,0 +1,161 @@
+#title-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    aspect-ratio: 3/1;
+    /* height: 300px; */
+    height: auto;
+    /* background-color: #ff642d; */
+    padding: 20px 10%;
+    color: #171a22;
+}
+
+.bgYellow1 {
+    background: url(../imgs/backgrounds/bgYellow1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#title-box>div {
+    width: 50%;
+    min-width: 230px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#title-box h1 {
+    font-size: 40px;
+}
+
+#title-box p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+#review-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#title-box span {
+    font-size: 15px;
+}
+
+#cover-page {
+    display: flex;
+    justify-content: center;
+}
+
+#cover-page img {
+    height: 250px;
+}
+
+.audioBookBtn {
+    margin-top: 25px;
+    border: 2px dotted black;
+    padding: 3px;
+    border-radius: 12px;
+}
+
+.audioBookBtn:hover {
+    background-color: rgba(255, 255, 255, 0.555);
+    transition: 0.5s;
+}
+
+.audioBookBtn input{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 3px;
+}
+
+/* AUDIOBOOK */
+#AudioBook {
+    padding: 0 15px 50px 15px;
+    align-content: center;
+}
+
+#AudioBook iframe {
+    display: block;
+    /* width: 75%; */
+    margin: auto;
+}
+
+/* CONTENT */
+#content {
+    padding: 50px 50px;
+    background-color: white;
+    color: black;
+}
+
+#content h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+}
+
+#content h3 {
+    display: inline;
+    font-size: 20px;
+    background-color: gold;
+    padding: 0 4px;
+    border-radius: 10px;
+}
+
+#content h3 {
+    font-weight: 600;
+}
+
+#content p {
+    margin-bottom: 1.5em;
+    font-size: 18px;
+}
+
+@media (min-width: 0) and (max-width: 1050px) {
+    #title-box h1 {
+        font-size: 35px;
+    }
+
+    #review-info span {
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 0) and (max-width: 760px) {
+    #title-box h1 {
+        font-size: 30px;
+    }
+
+    #content {
+        padding: 50px 0;
+    }
+
+    #title-box>div {
+        width: 100%;
+        min-width: 230px;
+        /* margin: 15px; */
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+}
+
+@media (min-width: 0) and (max-width: 660px) {
+    #title-box {
+        padding: 0;
+    }
+
+    #title-box>div {
+        width: 100%;
+        min-width: 230px;
+        margin: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #content p {
+        font-size: 16px;
+    }
+}
